@@ -1,0 +1,30 @@
+﻿Bug Report
+===========
+
+
+Summary:
+An error message was not displayed when the 'Message' field was left empty in the 'Contact Us' form.
+
+Description:
+The 'Contact Us' form allowed submission without displaying an error message, despite the 'Message' field being required.
+
+Steps to Reproduce:
+1. Navigate to the 'Contact Us' page.
+2. Fill out the form with valid inputs in all fields except the 'Message' field.
+3. Submit the form.
+
+Expected Result:
+An error message should be displayed, indicating that the 'Message' field is required.
+
+Actual Result:
+No error message was displayed.
+
+Severity: Medium  
+Priority: High  
+
+Environment:
+- Browser: Chrome 117.0  
+- OS: Windows 11  
+- URL: https://www.tendable.com/contact-us  
+
+
